@@ -1,4 +1,4 @@
-# Northcoders Data Engineering Katas
+# Northcoders Data Engineering Katas!
 
 Fork this repository to your own GitHub account because you will be pushing your own solutions to it.
 
@@ -15,6 +15,7 @@ We are going to use the `make` command to perform some of the standard tasks for
 The first task is to set up your **virtual environment**.
 
 Run this command in a terminal:
+
 ```bash
 make create-environment
 ```
@@ -24,11 +25,12 @@ You should see the `venv` directory appear within the project folder.
 Using `make` as described below wil mean you don't have to activate your environment.
 
 After creating your virtual environment, we can install `pytest` by running:
+
 ```bash
 make pytest
 ```
 
-The `pytest` library will be used for unit tests. Additionally, there will be `flake8` checks to make sure for PEP8 compliance in the later katas, this will be checked via `make`. 
+The `pytest` library will be used for unit tests. Additionally, there will be `flake8` checks to make sure for PEP8 compliance in the later katas, this will be checked via `make`.
 
 In the terminal, navigate to the root directory of the project, and run:
 
